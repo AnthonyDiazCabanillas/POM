@@ -17,7 +17,7 @@ def test_login():
                   .enter_credentials("74847349", "Tonydc1502%")
                   .submit_login()
                   )
-        time.sleep(20)
+        time.sleep(5)
 
         Citas=driver.find_element(By.id,"img_INI_HistorialCitas")
         Citas.click()

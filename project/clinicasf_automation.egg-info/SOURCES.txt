@@ -1,0 +1,11 @@
+README.md
+setup.py
+clinicasf_automation.egg-info/PKG-INFO
+clinicasf_automation.egg-info/SOURCES.txt
+clinicasf_automation.egg-info/dependency_links.txt
+clinicasf_automation.egg-info/requires.txt
+clinicasf_automation.egg-info/top_level.txt
+pages/__init__.py
+pages/home_page.py
+pages/login_page.py
+test/test_login.py

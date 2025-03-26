@@ -1,14 +1,14 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from .home_page import HomePage  # Importación relativa
+from .home_page import HomePage 
 
 class LoginPage:
     def __init__(self, driver):
         self.driver = driver
-        self.url = "https://citaweb.clinicasanfelipe.com/CSF_CITAS/"
+        self.url = "https://citaweb.clinicasanfelipe.com/CSF_CITAS/" 
         
-        # Locators
+        # Busca los localizadores
         self.USERNAME_FIELD = (By.ID, "txtDni")
         self.PASSWORD_FIELD = (By.ID, "txtClave")
         self.LOGIN_BUTTON = (By.ID, "btnLogin")

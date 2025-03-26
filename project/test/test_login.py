@@ -5,7 +5,7 @@ from selenium import webdriver
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from pages.login_page import LoginPage
+from pages.login_page import LoginPage #IMPORTAR LA CLASE QUE SE CREO
 
 def test_login():
     driver = webdriver.Chrome()
